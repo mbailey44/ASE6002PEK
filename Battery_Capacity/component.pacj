@@ -1,0 +1,99 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "Pack_Count",
+      "metaData": {
+        "userData": "Pack_Count"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 3.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "Battery_Capacity",
+      "metaData": {
+        "userData": "Battery_Capacity"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 599400.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Battery_Cost",
+      "metaData": {
+        "userData": "Battery_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 28.349999999999998,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Battery_Weight",
+      "metaData": {
+        "userData": "Battery_Weight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 621.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Cell_Count",
+      "metaData": {
+        "userData": "Cell_Count"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 9.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Cell_Weight",
+      "metaData": {
+        "userData": "Cell_Weight"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 621.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Battery_Capacity.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Battery_Capacity.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Battery_Capacity.xlsx"
+  }
+}
