@@ -1,0 +1,138 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "area_lid",
+      "metaData": {
+        "userData": "area_lid"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "c_water",
+      "metaData": {
+        "userData": "c_water"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "dt_cool",
+      "metaData": {
+        "userData": "dt_cool"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 15.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "fluid_mass",
+      "metaData": {
+        "userData": "fluid_mass"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "k_lid",
+      "metaData": {
+        "userData": "k_lid"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.45,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "set_temp",
+      "metaData": {
+        "userData": "set_temp"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 90.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "thickness_lid",
+      "metaData": {
+        "userData": "thickness_lid"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 2.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "dQ_cool",
+      "metaData": {
+        "userData": "dQ_cool"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 16.875,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Q_cool",
+      "metaData": {
+        "userData": "Q_cool"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 15.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Q_Cool.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Q_Cool.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Q_Cool.xlsx"
+  }
+}
