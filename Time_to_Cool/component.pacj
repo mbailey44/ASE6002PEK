@@ -1,0 +1,60 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "dQ_cool",
+      "metaData": {
+        "userData": "dQ_cool"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Q_cool",
+      "metaData": {
+        "userData": "Q_cool"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "T_cool",
+      "metaData": {
+        "userData": "T_cool"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Time_to_Cool.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Time_to_Cool.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Time_to_Cool.xlsx"
+  }
+}
