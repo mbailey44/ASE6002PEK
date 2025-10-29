@@ -1,0 +1,73 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "container_diameter",
+      "metaData": {
+        "userData": "container_diameter"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 15.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "container_height",
+      "metaData": {
+        "userData": "container_height"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 10.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "fluid_density",
+      "metaData": {
+        "userData": "fluid_density"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "fluid_mass",
+      "metaData": {
+        "userData": "fluid_mass"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 7.065,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Fluid Capacity Mass.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Fluid Capacity Mass.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Fluid Capacity Mass.xlsx"
+  }
+}

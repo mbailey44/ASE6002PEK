@@ -1,0 +1,60 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "Q_toBoil",
+      "metaData": {
+        "userData": "Q_toBoil"
+      },
+      "type": "Double",
+      "format": "#,##0",
+      "units": "",
+      "description": "",
+      "defaultValue": 292880.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Watts",
+      "metaData": {
+        "userData": "Watts"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1000.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "T_boil",
+      "metaData": {
+        "userData": "T_boil"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 292.88,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "Time_To_Boil.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"Time_To_Boil.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "Time_To_Boil.xlsx"
+  }
+}
