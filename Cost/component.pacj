@@ -9,7 +9,7 @@
         "userData": "Battery_Cost"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
@@ -22,10 +22,23 @@
         "userData": "cost_lid"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "container_cost",
+      "metaData": {
+        "userData": "Sheet1!$B$2"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
     }
@@ -37,7 +50,7 @@
         "userData": "Total_Cost"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 2.0,
