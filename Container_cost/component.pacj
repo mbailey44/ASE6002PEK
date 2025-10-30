@@ -1,0 +1,99 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "container_diameter",
+      "metaData": {
+        "userData": "container_diameter"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 15.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "container_height",
+      "metaData": {
+        "userData": "container_height"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 10.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "container_material_density",
+      "metaData": {
+        "userData": "container_material_density"
+      },
+      "type": "Double",
+      "format": "0.00E+00",
+      "units": "",
+      "description": "",
+      "defaultValue": 8E-06,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "container_raw_material_cost",
+      "metaData": {
+        "userData": "container_raw_material_cost"
+      },
+      "type": "Double",
+      "format": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 2.8,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "container_wall_thickness",
+      "metaData": {
+        "userData": "container_wall_thickness"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.55,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "container_cost",
+      "metaData": {
+        "userData": "container_cost"
+      },
+      "type": "Double",
+      "format": "_($* #,##0.00_);_($* (#,##0.00);_($* \"-\"??_);_(@_)",
+      "units": "",
+      "description": "",
+      "defaultValue": 3.6413454393883824,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "container_cost.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"container_cost.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "container_cost.xlsx"
+  }
+}

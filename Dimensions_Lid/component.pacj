@@ -4,6 +4,32 @@
   "requires": [],
   "inputs": [
     {
+      "name": "hdpe_cost_per_g",
+      "metaData": {
+        "userData": "hdpe_cost_per_g"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.05,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "hdpe_density",
+      "metaData": {
+        "userData": "hdpe_density"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.97,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "radius_lid",
       "metaData": {
         "userData": "radius_lid"
@@ -41,6 +67,19 @@
       "units": "",
       "description": "",
       "defaultValue": 78.5,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "cost_lid",
+      "metaData": {
+        "userData": "cost_lid"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 7.6145,
       "enumValues": [],
       "enumAliases": []
     }

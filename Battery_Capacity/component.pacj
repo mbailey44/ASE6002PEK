@@ -27,7 +27,20 @@
       "format": "General",
       "units": "",
       "description": "",
-      "defaultValue": 599400000.0,
+      "defaultValue": 599400.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Battery_Cost",
+      "metaData": {
+        "userData": "Battery_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 28.349999999999998,
       "enumValues": [],
       "enumAliases": []
     },
@@ -41,19 +54,6 @@
       "units": "",
       "description": "",
       "defaultValue": 621.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "Cell_Capacity",
-      "metaData": {
-        "userData": "Cell_Capacity"
-      },
-      "type": "Double",
-      "format": "General",
-      "units": "",
-      "description": "",
-      "defaultValue": 599400000.0,
       "enumValues": [],
       "enumAliases": []
     },
