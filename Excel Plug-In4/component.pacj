@@ -9,7 +9,7 @@
         "userData": "container_diameter"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 15.0,
@@ -17,12 +17,12 @@
       "enumAliases": []
     },
     {
-      "name": "container_height",
+      "name": "svd_container_height",
       "metaData": {
         "userData": "container_height"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 10.0,
@@ -35,7 +35,7 @@
         "userData": "fluid_density"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
@@ -45,12 +45,12 @@
   ],
   "outputs": [
     {
-      "name": "fluid_mass",
+      "name": "pa_fluid_mass",
       "metaData": {
         "userData": "fluid_mass"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 7.065,
