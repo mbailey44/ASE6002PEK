@@ -4,9 +4,9 @@
   "requires": [],
   "inputs": [
     {
-      "name": "Battery_Cost",
+      "name": "Battery_Cost_USD",
       "metaData": {
-        "userData": "Battery_Cost"
+        "userData": "Sheet1!$B$4"
       },
       "type": "Double",
       "format": "",

@@ -4,9 +4,9 @@
   "requires": [],
   "inputs": [
     {
-      "name": "Battery_Capacity",
+      "name": "Battery_Capacity_Ah",
       "metaData": {
-        "userData": "Battery_Capacity"
+        "userData": "Sheet1!$B$3"
       },
       "type": "Double",
       "format": "",
