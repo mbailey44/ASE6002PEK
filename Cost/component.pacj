@@ -54,6 +54,19 @@
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
+    },
+    {
+      "name": "UNC_number_of_units",
+      "metaData": {
+        "userData": "Sheet1!$B$6"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
     }
   ],
   "outputs": [
@@ -67,6 +80,19 @@
       "units": "",
       "description": "",
       "defaultValue": 2.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Fixed_Cost_Per_Unit_USD",
+      "metaData": {
+        "userData": "Sheet1!$G$8"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
     }
