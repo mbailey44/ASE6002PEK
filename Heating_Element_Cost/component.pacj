@@ -4,7 +4,7 @@
   "requires": [],
   "inputs": [
     {
-      "name": "heating_element_power",
+      "name": "heating_element_power_WATTS",
       "metaData": {
         "userData": "Sheet1!$C$14"
       },
@@ -19,7 +19,7 @@
   ],
   "outputs": [
     {
-      "name": "heating_element_cost",
+      "name": "heating_element_cost_USD",
       "metaData": {
         "userData": "Sheet1!$C$37"
       },

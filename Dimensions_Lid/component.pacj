@@ -9,7 +9,7 @@
         "userData": "hdpe_cost_per_g"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 0.05,
@@ -22,7 +22,7 @@
         "userData": "hdpe_density"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 0.97,
@@ -30,12 +30,12 @@
       "enumAliases": []
     },
     {
-      "name": "radius_lid",
+      "name": "diameter_lid_cm",
       "metaData": {
-        "userData": "radius_lid"
+        "userData": "diameter_lid_cm"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 5.0,
@@ -48,7 +48,7 @@
         "userData": "thickness_lid"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 2.0,
@@ -63,7 +63,7 @@
         "userData": "area_lid"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 78.5,
@@ -76,7 +76,7 @@
         "userData": "cost_lid"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 7.6145,

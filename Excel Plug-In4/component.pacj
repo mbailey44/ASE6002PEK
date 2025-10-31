@@ -4,7 +4,7 @@
   "requires": [],
   "inputs": [
     {
-      "name": "container_diameter",
+      "name": "container_diameter_CM",
       "metaData": {
         "userData": "container_diameter"
       },
@@ -17,7 +17,7 @@
       "enumAliases": []
     },
     {
-      "name": "svd_container_height",
+      "name": "SVD_container_height_CM",
       "metaData": {
         "userData": "container_height"
       },
@@ -45,7 +45,7 @@
   ],
   "outputs": [
     {
-      "name": "pa_fluid_mass",
+      "name": "PA_fluid_mass_KG",
       "metaData": {
         "userData": "fluid_mass"
       },
