@@ -4,12 +4,12 @@
   "requires": [],
   "inputs": [
     {
-      "name": "Battery_Capacity",
+      "name": "Battery_Capacity_Ah",
       "metaData": {
-        "userData": "Battery_Capacity"
+        "userData": "Sheet1!$B$3"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
@@ -22,7 +22,7 @@
         "userData": "T_Boil"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
@@ -35,7 +35,7 @@
         "userData": "Watts"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
@@ -45,12 +45,12 @@
   ],
   "outputs": [
     {
-      "name": "Boils_per_Charge",
+      "name": "PA_Boils_per_Charge",
       "metaData": {
         "userData": "Boils_per_Charge"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,

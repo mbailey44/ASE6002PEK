@@ -17,12 +17,12 @@
       "enumAliases": []
     },
     {
-      "name": "Watts",
+      "name": "SVD_Heating_Element_Power_Watts",
       "metaData": {
         "userData": "Watts"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1000.0,
@@ -32,12 +32,12 @@
   ],
   "outputs": [
     {
-      "name": "T_boil",
+      "name": "PA_T_boil",
       "metaData": {
         "userData": "T_boil"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 292.88,

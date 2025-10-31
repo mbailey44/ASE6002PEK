@@ -1,0 +1,73 @@
+{
+  "plugInId": "4e7b938a-afb0-49f5-b9c7-ea34bf2c1c7b",
+  "runFolderPreference": "PerProcess",
+  "requires": [],
+  "inputs": [
+    {
+      "name": "fluid_capacity",
+      "metaData": {
+        "userData": "DemandPredictionModel!$C$24"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "number_of_boils",
+      "metaData": {
+        "userData": "DemandPredictionModel!$C$26"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "time_to_boil",
+      "metaData": {
+        "userData": "DemandPredictionModel!$C$25"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "outputs": [
+    {
+      "name": "demand",
+      "metaData": {
+        "userData": "DemandPredictionModel!$C$30"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    }
+  ],
+  "instanceFiles": [
+    {
+      "plugInIntegral": false,
+      "relativePath": "DemandModelSurvey_PEK.xlsx"
+    }
+  ],
+  "externalFiles": [],
+  "compatibilities": [],
+  "properties": {
+    "ExcelPlugInSettings": "{\"FilePath\":\"DemandModelSurvey_PEK.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "FilePath": "DemandModelSurvey_PEK.xlsx"
+  }
+}

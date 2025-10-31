@@ -4,12 +4,12 @@
   "requires": [],
   "inputs": [
     {
-      "name": "container_diameter",
+      "name": "container_diameter_CM",
       "metaData": {
         "userData": "container_diameter"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 15.0,
@@ -17,12 +17,12 @@
       "enumAliases": []
     },
     {
-      "name": "container_height",
+      "name": "SVD_container_height_CM",
       "metaData": {
         "userData": "container_height"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 10.0,
@@ -35,22 +35,35 @@
         "userData": "fluid_density"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Fluid_Fill",
+      "metaData": {
+        "userData": "Sheet1!$B$7"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
     }
   ],
   "outputs": [
     {
-      "name": "fluid_mass",
+      "name": "PA_fluid_mass_KG",
       "metaData": {
         "userData": "fluid_mass"
       },
       "type": "Double",
-      "format": "General",
+      "format": "",
       "units": "",
       "description": "",
       "defaultValue": 7.065,

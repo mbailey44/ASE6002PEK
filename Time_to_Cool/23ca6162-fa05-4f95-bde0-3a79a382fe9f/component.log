@@ -1,0 +1,4 @@
+2025-10-30 21:30:56,893 [Component Thread] WARN Phoenix.ComponentClient.Impl.DefaultHarnessRunnerHost - Could not load the Solver Add-in.
+System.Runtime.InteropServices.COMException (0x800A03EC): Sorry, we couldn't find C:\Users\lcalimlim3\OneDrive - Georgia Institute of Technology\Documents\Solver.xlam. Is it possible it was moved, renamed or deleted?
+   at Microsoft.Office.Interop.Excel.ApplicationClass.Run(Object Macro, Object Arg1, Object Arg2, Object Arg3, Object Arg4, Object Arg5, Object Arg6, Object Arg7, Object Arg8, Object Arg9, Object Arg10, Object Arg11, Object Arg12, Object Arg13, Object Arg14, Object Arg15, Object Arg16, Object Arg17, Object Arg18, Object Arg19, Object Arg20, Object Arg21, Object Arg22, Object Arg23, Object Arg24, Object Arg25, Object Arg26, Object Arg27, Object Arg28, Object Arg29, Object Arg30)
+   at ExcelPlugIn.Excel.ExcelSession._safeLoadSolverAddIn()
