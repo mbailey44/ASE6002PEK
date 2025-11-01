@@ -8,11 +8,11 @@
       "metaData": {
         "userData": "Pack_Count"
       },
-      "type": "Double",
+      "type": "Integer",
       "format": "",
       "units": "",
       "description": "",
-      "defaultValue": 3.0,
+      "defaultValue": 0,
       "enumValues": [],
       "enumAliases": []
     },

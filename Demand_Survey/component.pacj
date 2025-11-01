@@ -82,6 +82,32 @@
       "defaultValue": 0.0,
       "enumValues": [],
       "enumAliases": []
+    },
+    {
+      "name": "OBJ_Profit",
+      "metaData": {
+        "userData": "DemandPredictionModel!$C$33"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "sale_price_USD",
+      "metaData": {
+        "userData": "DemandPredictionModel!$C$31"
+      },
+      "type": "Double",
+      "format": "",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.0,
+      "enumValues": [],
+      "enumAliases": []
     }
   ],
   "instanceFiles": [
