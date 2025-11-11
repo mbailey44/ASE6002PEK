@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Batt_Cost",
+      "metaData": {
+        "userData": "UNC_Batt_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "SVD_Pack_Count_num",
       "metaData": {
         "userData": "Pack_Count"

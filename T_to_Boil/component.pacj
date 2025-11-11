@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Heat_Elem_Tol",
+      "metaData": {
+        "userData": "UNC_Heat_Elem_Tol"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.05,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "Q_toBoil",
       "metaData": {
         "userData": "Q_toBoil"
@@ -19,7 +32,7 @@
     {
       "name": "SVD_Heating_Element_Power_Watts",
       "metaData": {
-        "userData": "Watts"
+        "userData": "Sheet1!$B$2"
       },
       "type": "Double",
       "format": "",
@@ -31,6 +44,19 @@
     }
   ],
   "outputs": [
+    {
+      "name": "Real_Power",
+      "metaData": {
+        "userData": "Real_Power"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1576.05,
+      "enumValues": [],
+      "enumAliases": []
+    },
     {
       "name": "PA_T_boil",
       "metaData": {

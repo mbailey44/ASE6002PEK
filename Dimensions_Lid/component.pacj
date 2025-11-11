@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Lid_Mat_Cost",
+      "metaData": {
+        "userData": "UNC_Lid_Mat_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "hdpe_cost_per_g",
       "metaData": {
         "userData": "hdpe_cost_per_g"

@@ -4,6 +4,32 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Compliance_Fixed",
+      "metaData": {
+        "userData": "UNC_Compliance_Fixed"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_MFG_Fixed",
+      "metaData": {
+        "userData": "UNC_MFG_Fixed"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "Battery_Cost_USD",
       "metaData": {
         "userData": "Sheet1!$B$4"

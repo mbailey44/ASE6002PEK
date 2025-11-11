@@ -4,6 +4,84 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Compliance_Fixed",
+      "metaData": {
+        "userData": "UNC_Compliance_Fixed"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_MFG_Fixed",
+      "metaData": {
+        "userData": "UNC_MFG_Fixed"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Batt_Cost",
+      "metaData": {
+        "userData": "UNC_Batt_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Cont_Cost",
+      "metaData": {
+        "userData": "UNC_Cont_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Heat_Elem_Tol",
+      "metaData": {
+        "userData": "UNC_Heat_Elem_Tol"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Lid_Mat_Cost",
+      "metaData": {
+        "userData": "UNC_Lid_Mat_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "UNC_Batt_Cap",
       "metaData": {
         "userData": "UNC_Batt_Cap"
