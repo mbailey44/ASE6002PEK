@@ -4,6 +4,32 @@
   "requires": [],
   "inputs": [
     {
+      "name": "target_thickness_lid",
+      "metaData": {
+        "userData": "target_thickness_lid"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 0.2,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Lid_Thickness",
+      "metaData": {
+        "userData": "UNC_Lid_Thickness"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.05,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "UNC_Lid_Mat_Cost",
       "metaData": {
         "userData": "UNC_Lid_Mat_Cost"

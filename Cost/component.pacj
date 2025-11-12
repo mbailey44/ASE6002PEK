@@ -4,6 +4,45 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Testing_Fixed",
+      "metaData": {
+        "userData": "UNC_Testing_Fixed"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "Demand",
+      "metaData": {
+        "userData": "Demand"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1978.5,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Demand_Variation",
+      "metaData": {
+        "userData": "UNC_Demand_Variation"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "UNC_Compliance_Fixed",
       "metaData": {
         "userData": "UNC_Compliance_Fixed"
@@ -72,19 +111,6 @@
       "name": "heating_element_cost",
       "metaData": {
         "userData": "Sheet1!$B$5"
-      },
-      "type": "Double",
-      "format": "",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.0,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
-      "name": "UNC_number_of_units",
-      "metaData": {
-        "userData": "Sheet1!$B$6"
       },
       "type": "Double",
       "format": "",
