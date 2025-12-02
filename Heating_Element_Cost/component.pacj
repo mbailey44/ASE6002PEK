@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Heat_Elem_Cost",
+      "metaData": {
+        "userData": "UNC_Heat_Elem_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "heating_element_power_WATTS",
       "metaData": {
         "userData": "Sheet1!$C$14"
