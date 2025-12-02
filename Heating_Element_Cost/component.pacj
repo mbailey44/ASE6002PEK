@@ -4,6 +4,19 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Heat_Elem_Cost",
+      "metaData": {
+        "userData": "UNC_Heat_Elem_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "heating_element_power_WATTS",
       "metaData": {
         "userData": "Sheet1!$C$14"
@@ -41,7 +54,7 @@
   "externalFiles": [],
   "compatibilities": [],
   "properties": {
-    "ExcelPlugInSettings": "{\"FilePath\":\"HeatingElementCostEstimate.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "ExcelPlugInSettings": "{\"FilePath\":\"HeatingElementCostEstimate.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":false,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
     "FilePath": "HeatingElementCostEstimate.xlsx"
   }
 }

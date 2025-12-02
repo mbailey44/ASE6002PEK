@@ -4,6 +4,45 @@
   "requires": [],
   "inputs": [
     {
+      "name": "UNC_Demand_Variation",
+      "metaData": {
+        "userData": "UNC_Demand_Variation"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Heat_Elem_Cost",
+      "metaData": {
+        "userData": "UNC_Heat_Elem_Cost"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
+      "name": "UNC_Testing_Fixed",
+      "metaData": {
+        "userData": "UNC_Testing_Fixed"
+      },
+      "type": "Double",
+      "format": "General",
+      "units": "",
+      "description": "",
+      "defaultValue": 1.0,
+      "enumValues": [],
+      "enumAliases": []
+    },
+    {
       "name": "UNC_Compliance_Fixed",
       "metaData": {
         "userData": "UNC_Compliance_Fixed"
@@ -108,19 +147,6 @@
       "enumAliases": []
     },
     {
-      "name": "UNC_Fluid_Fill",
-      "metaData": {
-        "userData": "UNC_Fluid_Fill"
-      },
-      "type": "Double",
-      "format": "General",
-      "units": "",
-      "description": "",
-      "defaultValue": 0.8,
-      "enumValues": [],
-      "enumAliases": []
-    },
-    {
       "name": "UNC_Fluid_Temp",
       "metaData": {
         "userData": "UNC_Fluid_Temp"
@@ -144,7 +170,7 @@
   "externalFiles": [],
   "compatibilities": [],
   "properties": {
-    "ExcelPlugInSettings": "{\"FilePath\":\"Uncertainty.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":true,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
+    "ExcelPlugInSettings": "{\"FilePath\":\"Uncertainty.xlsx\",\"ExcelStartUpMacro\":\"PHXStart\",\"PlugInRunMacro\":\"PHXExecute\",\"ExcelCloseMacro\":\"PHXEnd\",\"ComponentTreeVariable\":false,\"SuspendCalculation\":true,\"RestartAfterEachRun\":false,\"LoadSolverAddInAtStart\":false,\"SaveWorkbookOption\":2,\"ShareExcelReference\":false,\"UseDynamicArrays\":false}",
     "FilePath": "Uncertainty.xlsx"
   }
 }
